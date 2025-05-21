@@ -1,0 +1,254 @@
+[
+    {
+        "ipAddress": "192.168.1.10",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "information": {
+            "ipAddress": "192.168.1.10",
+            "name": "Switch-01",
+            "model": "Cisco Catalyst 9300",
+            "version": "16.9.5",
+            "status": "Active",
+            "speed": "10 Gbps",
+            "type": "Switch",
+            "serialNumber": "SN87345C930"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.20",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "netadmin",
+            "password": "strongPass789"
+        },
+        "information": {
+            "ipAddress": "192.168.1.20",
+            "name": "Router-02",
+            "model": "Juniper MX204",
+            "version": "18.2R3",
+            "status": "Active",
+            "speed": "40 Gbps",
+            "type": "Router",
+            "serialNumber": "SN23987JUN"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.30",
+        "snmpVersion": "v2c",
+        "credential": "private",
+        "information": {
+            "ipAddress": "192.168.1.30",
+            "name": "Firewall-01",
+            "model": "Fortinet FG-100F",
+            "version": "6.4.8",
+            "status": "Inactive",
+            "speed": "1 Gbps",
+            "type": "Firewall",
+            "serialNumber": "SN45678FGT"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.40",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "monitor",
+            "password": "monPass321"
+        },
+        "information": {
+            "ipAddress": "192.168.1.40",
+            "name": "AP-02",
+            "model": "Ubiquiti UAP-AC-Pro",
+            "version": "4.3.20",
+            "status": "Active",
+            "speed": "1.3 Gbps",
+            "type": "Access Point",
+            "serialNumber": "SN67549UAP"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.50",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "information": {
+            "ipAddress": "192.168.1.50",
+            "name": "Switch-02",
+            "model": "HP Aruba 2930F",
+            "version": "WC.16.10.10",
+            "status": "Active",
+            "speed": "10 Gbps",
+            "type": "Switch",
+            "serialNumber": "SN92834HP"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.60",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "snmpUser",
+            "password": "safePass654"
+        },
+        "information": {
+            "ipAddress": "192.168.1.60",
+            "name": "Router-03",
+            "model": "Cisco ISR 4451",
+            "version": "17.3.3",
+            "status": "Maintenance",
+            "speed": "10 Gbps",
+            "type": "Router",
+            "serialNumber": "SN12785CISR"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.70",
+        "snmpVersion": "v2c",
+        "credential": "private",
+        "information": {
+            "ipAddress": "192.168.1.70",
+            "name": "Firewall-02",
+            "model": "Palo Alto PA-220",
+            "version": "10.1.5",
+            "status": "Active",
+            "speed": "500 Mbps",
+            "type": "Firewall",
+            "serialNumber": "SN78956PA"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.80",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "adminSNMP",
+            "password": "verySecure321"
+        },
+        "information": {
+            "ipAddress": "192.168.1.80",
+            "name": "AP-03",
+            "model": "Ruckus R750",
+            "version": "5.2.2",
+            "status": "Inactive",
+            "speed": "2.4 Gbps",
+            "type": "Access Point",
+            "serialNumber": "SN35928RK"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.90",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "information": {
+            "ipAddress": "192.168.1.90",
+            "name": "Switch-03",
+            "model": "Extreme X460-G2",
+            "version": "22.5.1.7",
+            "status": "Active",
+            "speed": "10 Gbps",
+            "type": "Switch",
+            "serialNumber": "SN98421EX"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.100",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "readOnlyUser",
+            "password": "readPass456"
+        },
+        "information": {
+            "ipAddress": "192.168.1.100",
+            "name": "Router-04",
+            "model": "MikroTik CCR1036",
+            "version": "7.2.1",
+            "status": "Active",
+            "speed": "36 Gbps",
+            "type": "Router",
+            "serialNumber": "SN62134MTK"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.110",
+        "snmpVersion": "v2c",
+        "credential": "private",
+        "information": {
+            "ipAddress": "192.168.1.110",
+            "name": "Firewall-03",
+            "model": "SonicWall TZ500",
+            "version": "6.5.4.7",
+            "status": "Inactive",
+            "speed": "1 Gbps",
+            "type": "Firewall",
+            "serialNumber": "SN46781SW"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.120",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "monitorSNMP",
+            "password": "monitorPass987"
+        },
+        "information": {
+            "ipAddress": "192.168.1.120",
+            "name": "AP-04",
+            "model": "TP-Link EAP225",
+            "version": "2.9.5",
+            "status": "Active",
+            "speed": "1.2 Gbps",
+            "type": "Access Point",
+            "serialNumber": "SN85246TPL"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.142",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "information": {
+            "ipAddress": "192.168.1.142",
+            "name": "Device-13",
+            "model": "Model-13",
+            "version": "12.0",
+            "status": "Active",
+            "speed": "1 Gbps",
+            "type": "Switch",
+            "serialNumber": "SN00013"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.143",
+        "snmpVersion": "v3",
+        "credential": {
+            "username": "user13",
+            "password": "pass13"
+        },
+        "information": {
+            "ipAddress": "192.168.1.143",
+            "name": "Device-14",
+            "model": "Model-14",
+            "version": "13.0",
+            "status": "Inactive",
+            "speed": "1 Gbps",
+            "type": "Router",
+            "serialNumber": "SN00014"
+        }
+    },
+    {
+        "ipAddress": "192.168.1.144",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "information": {
+            "ipAddress": "192.168.1.144",
+            "name": "Device-15",
+            "model": "Model-15",
+            "version": "14.0",
+            "status": "Active",
+            "speed": "1 Gbps",
+            "type": "Router",
+            "serialNumber": "SN00015"
+        }
+    },
+    {
+        "ipAddress": "94.102.168.15",
+        "snmpVersion": "v2c",
+        "credential": "public",
+        "fileName": "cisco_2801"
+    }
+]
